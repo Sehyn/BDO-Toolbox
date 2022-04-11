@@ -24,6 +24,9 @@ Replace fonts and game face textures with ease.
 
 - [x] Working code
 - [x] Working features
+- [ ] Inbuilt game launcher (will explain later can do one click without having to type login details)
+- [ ] Game server checker (overlay to show your ping to the server)
+- [ ] Game Language patcher (in eu/na only GER/EN/FR/ES are available as languages we can use KR/JP/RUS..)
 - [ ] Add a way to define a directory for presets textures
 - [ ] Make a way to import images directly with a button
 - [ ] Add Comments on code
