@@ -13,6 +13,8 @@ using ReaLTaiizor.Manager;
 
 namespace BDO_Tools
 {
+
+
     public partial class Panel : MetroForm
     {
         public Panel()
@@ -43,6 +45,18 @@ namespace BDO_Tools
             FontChanger fontchanger = new FontChanger();
             this.Hide();
             fontchanger.Show();
+        }
+
+        private void Chk_GameZBD_CheckedChanged(object sender)
+        {
+            if(Chk_GamezBD.Checked == true)
+            {
+                Properties.Settings.Default.GamezBD = true;
+            }
+            if(Chk_GamezBD.Checked == false)
+            {
+                Properties.Settings.Default.GamezBD = false;
+            }
         }
     }
 }

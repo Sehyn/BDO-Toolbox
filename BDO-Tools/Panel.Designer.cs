@@ -32,6 +32,7 @@
             this.BtnFaceTextures = new ReaLTaiizor.Controls.MetroButton();
             this.BtnDonate = new ReaLTaiizor.Controls.MetroButton();
             this.BtnExit = new ReaLTaiizor.Controls.MetroTile();
+            this.Chk_GamezBD = new ReaLTaiizor.Controls.ForeverCheckBox();
             this.SuspendLayout();
             // 
             // BtnFontChanger
@@ -143,6 +144,23 @@
             this.BtnExit.TileAlign = ReaLTaiizor.Enum.Metro.TileAlign.TopCenter;
             this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
+            // Chk_GamezBD
+            // 
+            this.Chk_GamezBD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.Chk_GamezBD.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
+            this.Chk_GamezBD.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.Chk_GamezBD.Checked = false;
+            this.Chk_GamezBD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Chk_GamezBD.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.Chk_GamezBD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+            this.Chk_GamezBD.Location = new System.Drawing.Point(83, 218);
+            this.Chk_GamezBD.Name = "Chk_GamezBD";
+            this.Chk_GamezBD.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
+            this.Chk_GamezBD.Size = new System.Drawing.Size(130, 22);
+            this.Chk_GamezBD.TabIndex = 4;
+            this.Chk_GamezBD.Text = "I use GamezBD";
+            this.Chk_GamezBD.CheckedChanged += new ReaLTaiizor.Controls.ForeverCheckBox.CheckedChangedEventHandler(this.Chk_GameZBD_CheckedChanged);
+            // 
             // Panel
             // 
             this.AllowResize = false;
@@ -150,6 +168,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(575, 278);
+            this.Controls.Add(this.Chk_GamezBD);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.BtnDonate);
             this.Controls.Add(this.BtnFaceTextures);
@@ -173,5 +192,6 @@
         private ReaLTaiizor.Controls.MetroButton BtnFaceTextures;
         private ReaLTaiizor.Controls.MetroButton BtnDonate;
         private ReaLTaiizor.Controls.MetroTile BtnExit;
+        private ReaLTaiizor.Controls.ForeverCheckBox Chk_GamezBD;
     }
 }

@@ -22,5 +22,17 @@ namespace BDO_Tools.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool GamezBD {
+            get {
+                return ((bool)(this["GamezBD"]));
+            }
+            set {
+                this["GamezBD"] = value;
+            }
+        }
     }
 }
