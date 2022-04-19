@@ -24,6 +24,7 @@ Replace fonts and game face textures with ease.
 
 - [x] Working code
 - [x] Working features
+- [x] GamezBD FaceTexture support (issues/#1)
 - [ ] Inbuilt game launcher (will explain later can do one click without having to type login details)
 - [ ] Game server checker (overlay to show your ping to the server)
 - [ ] Game Language patcher (in eu/na only GER/EN/FR/ES are available as languages we can use KR/JP/RUS..)
@@ -44,7 +45,8 @@ Replace fonts and game face textures with ease.
 * Sehyn
 
 ## Credits : 
-* Sehyn
+* @Sehyn
+* @MrJktra (Enhancement idea issues/#1)
 * u/wynn_kaurus (reddit preset textures)
 
 ## Using Library :
